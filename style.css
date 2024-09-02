@@ -1,0 +1,569 @@
+      /* this code apply to display ...it is compalsary for css beggining */
+ *{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+     /* header section code start */
+ 
+.Admissionbar{
+    background-color: #27aa22;
+    color: #000000;
+    padding: 12px ;
+     text-align: center;
+    position: relative;
+     z-index: 99;
+    border-radius: 10px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Admissionbar p{
+     font-size: 12px; 
+     font-weight: bold; 
+}
+     /* header section code end*/
+
+     /* nav section code start*/
+.nav-container{
+     background-color: white;
+     height:60px;
+     width: 100%;
+     display: flex;
+     align-items: center;  
+     z-index: 1;  
+     position: -webkit-sticky;
+     position: sticky;
+     top:0;
+
+}
+.nav-logo-content{
+    width: 84%;
+    margin:0px 90px;
+    padding: 20px 0px;
+    min-width: 400px;    
+}
+.nav-logo-content img{
+    width: 100px;
+    height: 60px;   
+}
+.nav-number{
+    margin-right: 100px;
+}
+#nav-number p{
+    font-weight:bolder;
+    text-align: center;
+    letter-spacing: 2px;
+}
+     /* nav section code end*/
+
+
+
+     /* main section code start*/
+.main-background-img{
+    background-image:linear-gradient(rgba(0,0,0,0.100), 
+                     rgba(0,0,0,0.90)), url(https://www.lpu.in/landing-pages/brand/images/new1.jpg );
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+     /* main-container code */
+ .main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+ }
+.main-content{
+     margin: 290px 0px 0px  95px; 
+     width:600px ;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main-content h1{
+    color: white;
+    font-size: 25px;
+}
+.main-content h3{
+    color:#ef7f1a ; 
+    padding: 5px; 
+}
+.main-content p{
+    color: white;
+    padding: 5px;
+}
+.main-content h2{
+    font-weight: bold;
+    color: #ef7f1a;
+}
+.main-content #underline{
+    width: 300px;
+    height: 3px;
+    background-color: #ef7f1a;
+    margin-top: 8px;
+}
+
+     /* main-form code */
+ 
+.main-form{
+   background-color: white;
+   box-shadow: #302f2f;
+   display: block;
+   height: 530px;
+   width: 300px;
+   margin: 80px  220px 100px 0px;
+   padding: 10px;
+   border: white;
+   border-radius:5px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.main-form h3{
+    margin: 4px 0 7px 0;
+    color: #5f5b5b;
+    font-weight: 400 !important;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.main-form h4{
+    margin: 4px 0 7px 0;
+    color: #5f5b5b;
+    font-weight: 400 !important;
+    font-size: 20px;
+}
+input[type=text],[type=email],[type=number] {
+    width: 100%;
+    padding: 6px 20px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+  }
+  
+  #selects{
+    width: 100%;
+    padding: 6px 20px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .box{
+    display: flex;
+    justify-content: space-between;
+  }
+  #box1,#box2{
+        margin: 5px;
+        padding-left:0px 10px;
+        
+  }
+  .checkbox{
+    display: flex;
+    justify-content: center;
+    margin: 5PX;
+
+  }
+  .checkbox p{
+    color: #302f2f;
+    font-size:small;
+    margin: 0px 0px 0px 5px;
+  }
+
+  .button{
+    background-color: orange;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    margin: 8px 0;
+    border: 1px solid #f0b410;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .button h3{
+     color: white;
+  }
+      /*main section code end */
+
+/*company over veiw  code start*/
+.company-over-veiw{
+    background-color:rgb(252, 229, 233);
+    display: flex;
+    height: 160px;
+    width:100% ;
+}
+ .company{
+    margin: 20px;
+}
+.company h1{
+    font-size: 40px;
+    color: #000000;
+}
+.company p{ 
+    font-weight:400px ;
+    font-size: small;
+     padding: 5px;
+     word-spacing: 5px;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.company #line{
+    width: 3px;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    background-color: #000000;
+}
+ hr{
+    margin-top: 40px;
+    height: 80px;
+}
+/*company over veiw  code start*/
+
+/*  institute code start */
+.institute{
+    position: relative;
+    width: 100%;
+    height: 300px ; 
+    margin-top: 30px;
+}
+.institute h1{
+    top: 100px;
+    text-align: center;
+    color:#4e789f;
+    font-size: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.institute-container{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    margin: auto;
+}
+.institute-content{
+    position: relative;
+    width:310px;
+    height: 150px;
+    border: 3px dotted rgb(214, 204, 204);
+    text-align: center;
+    margin: 35px 20px;
+    padding: 0px 10px;
+    border-spacing: 5px;
+}
+.institute-content h1{
+    color:#ef7d00;
+    font-size: 50px;
+}   
+.institute-content p{
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.8;
+}
+.institute-content img{
+    width: 140px;
+    height: 60px; 
+    margin-top: 20px; 
+}
+/*  institute code end*/
+
+/*industry code start*/
+.industry{
+    height:400px;
+    width: 100%;
+    background-color:#f5f5f5;
+}
+.industry h1{
+     text-align: center;
+     padding-top: 30px;
+     color: #4e789f;
+     font-size: 35px; 
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      
+}
+.industry p{
+    color: #302f2f;
+    font-size: 17px;
+    padding-top: 25px;
+    text-align: center;
+}
+.industry-container{
+    display: block;
+    padding: 20px 40px;
+    margin: 0px 10px;
+
+}
+.industry-content{
+      width: 100%;
+      margin-top:10px ;
+      text-align: center;
+      
+}
+.industry-content img{
+    width: 180px;
+    height: 90px;
+    margin: 8px 8px;
+    box-shadow:5px 5px 18px #888888 ;
+}
+/*industry code end*/
+/*placement code start*/
+ .placement{
+    width: 100%;
+    height:620px;
+ }
+ .placement h1{
+    text-align: center;
+     padding-top: 30px;
+     color: #4e789f;
+     font-size: 35px; 
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+ }
+ .placement-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+ }
+ .placement-card{
+    width: 350px;
+    height: 480px;
+    margin: 10px 20px; 
+    padding:13px;
+    box-shadow:0px 0px 10px #888888 ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ .placement-card img{
+    width: 100%;
+    height: 200px;
+ }
+ .placement-card h2{
+    font-size: 18px;
+    color: #232020;
+    font-weight: 200;
+     margin-block-start:2rem ;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+ }
+ .placement-card p{
+    font-size: 14px;
+    color: #252429;
+    display: block;
+    margin-block-start: 2em;
+    margin-block-end: 1em;
+    line-height: 1.8;
+ }
+
+/*placement code end*/
+
+/*Recruiters code start*/
+.recruiters{
+    width: 100%;
+    height: 125vh;
+    margin-top: 40px; 
+}
+.recruiters-container{
+    border: 3px dashed black;
+    margin: auto; 
+    width: 85%;
+    height: 120vh;
+}
+.recruiters-container h1{
+    text-align: center;
+    color: #4e789f;
+    font-size: 35px;
+    margin:-30px 0px 0px  36%;
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.recruiters-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px; 
+    width: 80%;  
+    margin: auto; 
+    padding-top: 60px;
+}
+.recruiters-content img{
+     text-align: center;
+     
+}
+/*Recruiters code end*/
+
+/*courses code start*/
+.courses{
+    width: 100%;
+    height: 120vh;
+    background-color: #f5f5f5;
+}
+.courses h1{
+    text-align: center;
+    font-size: 30px;
+    color: #232020;
+    font-weight: 200;
+    padding:50px 0 30px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+}
+.courses-content{
+    margin: auto; 
+    width: 85%;
+    height: 120vh;
+}
+.courses-content ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    list-style: none;
+}
+.courses-content ul li img{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+/*courses code end*/
+/*counrty code strat*/
+.counrty{
+    width: 100%;
+    height: 190vh;
+}
+.counrty h1{
+    text-align: center;
+    padding-top: 50px;
+    color: #4e789f;
+    font-size: 35px; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.counrty p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+.country-content {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+    width:85% ;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.country-card{
+    width: 350px;
+    height: 500px;
+    margin: 20px; 
+    padding:13px;
+    box-shadow:0px 0px 10px #888888 ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.country-card img{
+    width: 100%;
+    height:180px;
+}
+.country-card h2{
+    font-size: 18px;
+    color: #232020;
+    font-weight: 200;
+    margin-block-start:2rem ;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+ }
+ .country-card p{
+    font-size: 14px;
+    color: #252429;
+    display: block;
+    margin-block-start: 2em;
+    margin-block-end: 1em;
+    line-height: 1.8;
+}
+  
+/*counrty code end*/
+
+ /*campus code start*/
+.campus{
+    width: 100%;
+    height: 100vh;
+    background-color:#f5f5f5 ; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.campus h2{
+    padding-top: 30px;
+    font-weight: 200;
+    text-align: center;
+}
+.campus h1{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: 300;
+    padding:20px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+}
+.campus-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.campus-content1 img{
+    width: 130%;
+    height: 500px;
+    margin: 10px auto;
+}
+.campus-content2{
+    width: 60%;
+    text-align: center;
+    display: block;
+    float: right;
+    padding-left: 200px;
+     margin-left: auto;
+     margin-right: auto;
+}
+.campus-content2 h1{
+    font-size: 22px;
+     padding-bottom: 10px;
+     font-weight: bold;
+      
+}
+.campus-content2 p{
+    padding-bottom: 14px;
+}
+.campus-content2 img{
+    width: 100%;
+    height: 300px;
+}
+ /*campus code end*/
+
+/*footer code start*/
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: #000000;
+    display: flex;
+}
+.footer img{
+    width: 45px;
+    height: 45px;
+    margin: 40px 10px 40px 100px;
+}
+.footer hr{
+    width: 1px;
+    height: 50px;
+    color: #7c7878;
+}
+.footer p{
+    color: white;
+    font-size: 16px;
+    margin:40px 0px 40px 10px ;
+}
+.footer span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:15px;
+    font-weight: bold;
+}
+/*footer code end*/
+
+
